@@ -12,6 +12,8 @@ add this useState before return in main page where we put 'routes' (probably Hom
 also add these routes into the same file
 
      `<Route path="/reco" element={<Recommend setPresent={setPresent} />} />`
-     
+ 
+ and also this one
+ 
      `<Route path="/bmi" element={<Bmi present={present} />} />`
         
