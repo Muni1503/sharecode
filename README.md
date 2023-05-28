@@ -9,6 +9,6 @@ add this useState before return in main page where we put 'routes' (probably Hom
  const [present, setPresent] = useState('');
  
 also add these routes into the same file
-                 <Route path="/reco" element={<Recommend setPresent={setPresent} />} />
-                 <Route path="/bmi" element={<Bmi present={present} />} />
+     `<Route path="/reco" element={<Recommend setPresent={setPresent} />} />`
+     `<Route path="/bmi" element={<Bmi present={present} />} />`
         
