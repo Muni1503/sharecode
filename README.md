@@ -6,7 +6,8 @@ add all photos into images folder of assets2
 add Normal.js,Obese.js, Overweight.js and Underweight.js into a new folder named "bmass" inside components2 folder
 
 add this useState before return in main page where we put 'routes' (probably HomeLayout (not sure))
- const [present, setPresent] = useState('');
+ 
+ `const [present, setPresent] = useState('');`
  
 also add these routes into the same file
      `<Route path="/reco" element={<Recommend setPresent={setPresent} />} />`
