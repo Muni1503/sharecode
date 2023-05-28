@@ -15,5 +15,5 @@ also add these routes into the same file
  
  and also this one
  
-     `<Route path="/bmi" element={<Bmi present={present} />} />`
+    <Route path="/bmi" element={<Bmi present={present} />} />
         
